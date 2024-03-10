@@ -1,0 +1,24 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hi", "hello", "hey"],
+            "responses": ["Hello! How can I assist you?", "Hi there! What can I help you with today?"]
+        },
+        {
+            "tag": "farewell",
+            "patterns": ["bye", "goodbye", "see you later"],
+            "responses": ["Goodbye! Have a great day.", "See you later! Take care."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thank you", "thanks a lot"],
+            "responses": ["You're welcome!", "No problem. Happy to help!"]
+        },
+        {
+            "tag": "age",
+            "patterns": ["how old are you", "what's your age"],
+            "responses": ["I am a computer program, so I don't have an age."]
+        }
+    ]
+}
